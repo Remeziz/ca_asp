@@ -1,0 +1,10 @@
+version: 2
+sources:
+- name: main
+  quoting:
+    database: true
+    schema: false
+    identifier: false
+  tables:
+  - name: _airbyte_raw_ca_get_f___shipment_detail_data
+  - name: _airbyte_raw_ca_get_f__ment_replacement_data
